@@ -1,0 +1,73 @@
+[
+  {
+    "id": "2024-1",
+    "label": "Exame 2024.1",
+    "date": "2023-11-19",
+    "edital": "05/DEING/2024-1",
+    "total_questions": 24,
+    "format": "old",
+    "areas": {
+      "linguagens": {"label": "Linguagens", "questions": [1,2,3,4,5,6,7,8], "count": 8},
+      "matematica": {"label": "Matemática", "questions": [9,10,11,12,13,14,15,16], "count": 8},
+      "ciencias_humanas": {"label": "Ciências Humanas", "questions": [17,18,19,20,21,22,23,24], "count": 8}
+    },
+    "note": "Formato antigo com 3 áreas de 8 questões cada"
+  },
+  {
+    "id": "2024-2",
+    "label": "Exame 2024.2",
+    "date": "2024-08-04",
+    "edital": "01/DEING/2024/2",
+    "total_questions": 28,
+    "format": "new",
+    "areas": {
+      "lingua_portuguesa": {"label": "Língua Portuguesa", "questions": [1,2,3,4,5,6,7], "count": 7},
+      "matematica": {"label": "Matemática", "questions": [8,9,10,11,12,13,14], "count": 7},
+      "geografia_historia": {"label": "Geografia e História", "questions": [15,16,17,18,19,20,21], "count": 7},
+      "ciencias": {"label": "Ciências", "questions": [22,23,24,25,26,27,28], "count": 7}
+    }
+  },
+  {
+    "id": "2025-1",
+    "label": "Exame 2025.1",
+    "date": "2024-11-17",
+    "edital": "05/DEING/2025/1",
+    "total_questions": 28,
+    "format": "new",
+    "areas": {
+      "lingua_portuguesa": {"label": "Língua Portuguesa", "questions": [1,2,3,4,5,6,7], "count": 7},
+      "matematica": {"label": "Matemática", "questions": [8,9,10,11,12,13,14], "count": 7},
+      "geografia_historia": {"label": "Geografia e História", "questions": [15,16,17,18,19,20,21], "count": 7},
+      "ciencias": {"label": "Ciências", "questions": [22,23,24,25,26,27,28], "count": 7}
+    },
+    "notes": "Q15 anulada"
+  },
+  {
+    "id": "2025-2",
+    "label": "Exame 2025.2",
+    "date": "2025-06-08",
+    "edital": "01/DEING/2025/2",
+    "total_questions": 28,
+    "format": "new",
+    "areas": {
+      "lingua_portuguesa": {"label": "Língua Portuguesa", "questions": [1,2,3,4,5,6,7], "count": 7},
+      "matematica": {"label": "Matemática", "questions": [8,9,10,11,12,13,14], "count": 7},
+      "geografia_historia": {"label": "Geografia e História", "questions": [15,16,17,18,19,20,21], "count": 7},
+      "ciencias": {"label": "Ciências", "questions": [22,23,24,25,26,27,28], "count": 7}
+    }
+  },
+  {
+    "id": "2026-1",
+    "label": "Exame 2026.1",
+    "date": "2025-11-02",
+    "edital": "04/DEING/2026/1",
+    "total_questions": 28,
+    "format": "new",
+    "areas": {
+      "lingua_portuguesa": {"label": "Língua Portuguesa", "questions": [1,2,3,4,5,6,7], "count": 7},
+      "matematica": {"label": "Matemática", "questions": [8,9,10,11,12,13,14], "count": 7},
+      "geografia_historia": {"label": "Geografia e História", "questions": [15,16,17,18,19,20,21], "count": 7},
+      "ciencias": {"label": "Ciências", "questions": [22,23,24,25,26,27,28], "count": 7}
+    }
+  }
+]

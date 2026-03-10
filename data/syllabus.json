@@ -1,0 +1,60 @@
+{
+  "title": "Conteúdo Programático - Exame de Classificação IFSC",
+  "source": "Edital Nº 01/DEING/2025/2 - Anexo V",
+  "exam_date": "2025-06-08",
+  "duration": "4 horas (14h às 18h)",
+  "total_questions": 28,
+  "areas": {
+    "lingua_portuguesa": {
+      "label": "Língua Portuguesa",
+      "questions": 7,
+      "content": [
+        "Compreensão de diferentes gêneros do discurso/textuais e suas modalidades.",
+        "Análise dos diferentes aspectos linguísticos/gramaticais do texto: convenções da língua escrita, aspectos fonético-fonológicos (relações fone-fonema-grafema), aspectos morfológicos e sintáticos (flexões, ordem ativa, passiva; regência e concordância) e aspectos semânticos (operadores lógico-discursivos, sinonímia, ambiguidades, figuras de linguagem).",
+        "Análise de diferentes aspectos textuais: estratégias argumentativas, recursos linguístico-literários na produção de efeitos de sentido, coesão, coerência, intertextualidade, intencionalidade, contexto e autoria.",
+        "Análise das diversas variedades linguísticas do português brasileiro e suas diferenças fonético-fonológicas, lexicais e sintáticas, avaliando seus efeitos semânticos. Variedades prestigiadas, estigmatizadas e o preconceito linguístico."
+      ]
+    },
+    "matematica": {
+      "label": "Matemática",
+      "questions": 7,
+      "content": [
+        "Conjuntos numéricos: Números naturais e inteiros (divisibilidade, MMC, MDC, decomposição em fatores primos); Números racionais (operações com frações, representação decimal e notação científica; razões, proporções, regra de três, porcentagem e juros); Números reais (operações e propriedades); Simplificação de expressões numéricas; Desigualdades e intervalos.",
+        "Álgebra: Expressões algébricas (operações e simplificações); Polinômios (monômios, grau, operações, produtos notáveis, fatoração); Equações do 1º grau (definição, resolução, sistemas e aplicações); Equações do 2º grau (definição, resolução e aplicações).",
+        "Geometria: Unidades de Medida (comprimento, área, perímetro, volume, capacidade e tempo); Ângulos, áreas e perímetros das figuras planas; Volume dos sólidos (cubo, paralelepípedo, cilindro); Relações métricas no triângulo retângulo.",
+        "Probabilidade e Estatística: Leitura e interpretação de tabelas e gráficos; Estimativa de probabilidade por meio de frequência de ocorrências; Princípio multiplicativo da contagem."
+      ]
+    },
+    "geografia_historia": {
+      "label": "Geografia e História",
+      "questions": 7,
+      "content": [
+        "Conceitos gerais: Espaço geográfico e conceitos básicos. Representação e linguagem cartográfica. Linguagem gráfica e iconográfica. Historiografia e conceitos de tempo, memória e concepções de História.",
+        "Santa Catarina: Povos originários, populações tradicionais, povos africanos e afrodescendentes, colonização europeia. Minorias e questões étnico-raciais. Formação territorial e a Guerra do Contestado. Regiões catarinenses (aspectos históricos, econômicos e sociais). Dinâmica urbana e rural. Diversidade ambiental.",
+        "Brasil: Formação territorial. Colonização. Escravagismo. Independência nacional. Brasil Monárquico. Protagonismo dos povos originários, africanos e afrodescendentes. Proclamação da República. República Velha, Era Vargas, Brasil pós-guerras, Ditadura Militar, Redemocratização, Era Neoliberal. Diversidade ambiental. Modernização do campo. Industrialização e urbanização. Dinâmica populacional. Culturas, identidades e territorialidades.",
+        "Espaço mundial: Capitalismo, mundialização e globalização. Desigualdade social e o mundo do trabalho.",
+        "História Geral: Antiguidade e primeiras sociedades. Idade Média e expansão islâmica. Renascimento e Modernidade. Estados Nacionais. Reforma e Contrarreforma. Expansionismo marítimo e colonização. Iluminismo e revoluções burguesas. Independências americanas. Revolução Industrial. Imperialismo na África e Ásia. Totalitarismos, Guerras Mundiais, Entreguerras e Guerra Fria. Independências na África e Ásia. Imperialismos nos séculos XX-XXI. Contracultura e Direitos Humanos."
+      ]
+    },
+    "ciencias": {
+      "label": "Ciências",
+      "questions": 7,
+      "content": [
+        "Matéria e Energia: Mecânica (estudo do movimento, máquinas simples). Termodinâmica (propagação do calor, equilíbrio termodinâmico, máquinas térmicas, fontes e tipos de energia, transformação e conservação de energia). Eletricidade (consumo de energia elétrica, circuitos, uso consciente). Matéria (propriedades, estados físicos, modelos atômicos, partículas subatômicas, tabela periódica, elementos e moléculas, substâncias e misturas, separação de misturas, reações químicas).",
+        "Vida e Evolução: Citologia (teoria celular, células procarióticas e eucarióticas, bioquímica celular, metabolismo, DNA, genes, cromossomos, mitose, meiose). Ecologia (ecossistemas, biomas brasileiros, sustentabilidade, poluição, efeito estufa, camada de ozônio, biodiversidade). Genética (Mendel, 1ª Lei, interações alélicas, biotecnologia). Seres Vivos (classificação de animais, vegetais, fungos, microrganismos). Corpo Humano (estrutura e funcionamento, vacinas, doenças, substâncias psicoativas, sentidos, reprodução, ISTs). Evolução (darwinismo, lamarckismo, seleção natural, fósseis, origem da vida).",
+        "Terra e Universo: Astronomia (Sistema Solar, Terra e Lua, ordem de grandeza astronômica, evolução estelar)."
+      ]
+    }
+  },
+  "campus_florianopolis_centro": {
+    "cursos": [
+      {"nome": "Técnico em Edificações", "turno": "Vespertino", "vagas": 32},
+      {"nome": "Técnico em Eletrônica", "turno": "Vespertino", "vagas": 25},
+      {"nome": "Técnico em Eletrotécnica", "turno": "Matutino", "vagas": 36},
+      {"nome": "Técnico em Eletrotécnica", "turno": "Vespertino", "vagas": 18},
+      {"nome": "Técnico em Mecatrônica", "turno": "Matutino", "vagas": 30},
+      {"nome": "Técnico em Química", "turno": "Matutino", "vagas": 32},
+      {"nome": "Técnico em Saneamento", "turno": "Vespertino", "vagas": 32}
+    ]
+  }
+}

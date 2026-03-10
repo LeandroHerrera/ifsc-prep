@@ -1,0 +1,142 @@
+{
+  "lingua_portuguesa": {
+    "label": "Língua Portuguesa",
+    "icon": "📝",
+    "color": "#2196F3",
+    "topics": {
+      "interpretacao_textual": {
+        "label": "Compreensão e Interpretação de Textos",
+        "subtopics": ["generos_textuais", "inferencia", "tema_central"]
+      },
+      "figuras_linguagem": {
+        "label": "Figuras de Linguagem",
+        "subtopics": ["antitese", "ironia", "metafora", "comparacao", "aliteracao", "eufemismo", "hiperbole", "personificacao"]
+      },
+      "gramatica": {
+        "label": "Análise Gramatical",
+        "subtopics": ["conjuncoes", "pronomes", "concordancia", "regencia", "acentuacao", "pontuacao", "adverbios", "verbos_modos"]
+      },
+      "variacao_linguistica": {
+        "label": "Variação Linguística",
+        "subtopics": ["coloquial_formal", "preconceito_linguistico", "estrangeirismo"]
+      },
+      "verbos": {
+        "label": "Verbos e Tempos Verbais",
+        "subtopics": ["imperativo", "preterito", "modos_verbais", "conjugacao"]
+      },
+      "recursos_linguisticos": {
+        "label": "Recursos Linguísticos",
+        "subtopics": ["coesao", "coerencia", "intertextualidade", "funcao_linguagem", "ambiguidade"]
+      }
+    }
+  },
+  "matematica": {
+    "label": "Matemática",
+    "icon": "📐",
+    "color": "#4CAF50",
+    "topics": {
+      "geometria": {
+        "label": "Geometria",
+        "subtopics": ["areas", "perimetros", "volumes", "figuras_planas", "solidos", "triangulo_retangulo"]
+      },
+      "numeros_operacoes": {
+        "label": "Números e Operações",
+        "subtopics": ["fracoes", "decimais", "notacao_cientifica", "potenciacao", "radiciacao"]
+      },
+      "proporcionalidade": {
+        "label": "Proporcionalidade",
+        "subtopics": ["porcentagem", "regra_de_tres", "razao", "proporcao", "juros"]
+      },
+      "algebra": {
+        "label": "Álgebra",
+        "subtopics": ["equacao_1grau", "equacao_2grau", "expressoes_algebricas", "produtos_notaveis", "fatoracao"]
+      },
+      "estatistica": {
+        "label": "Estatística e Probabilidade",
+        "subtopics": ["graficos", "tabelas", "media", "probabilidade", "contagem"]
+      },
+      "unidades_medida": {
+        "label": "Unidades de Medida",
+        "subtopics": ["comprimento", "area_medida", "volume_medida", "capacidade", "tempo", "escalas"]
+      }
+    }
+  },
+  "geografia_historia": {
+    "label": "Geografia e História",
+    "icon": "🌎",
+    "color": "#FF9800",
+    "topics": {
+      "santa_catarina": {
+        "label": "Santa Catarina",
+        "subtopics": ["guerra_contestado", "povos_indigenas_sc", "colonizacao_sc", "personalidades_sc", "regioes_sc"]
+      },
+      "brasil_formacao": {
+        "label": "Formação do Brasil",
+        "subtopics": ["colonizacao", "escravidao", "independencia", "republica_velha", "era_vargas"]
+      },
+      "brasil_contemporaneo": {
+        "label": "Brasil Contemporâneo",
+        "subtopics": ["ditadura_militar", "redemocratizacao", "neoliberalismo", "urbanizacao", "industrializacao"]
+      },
+      "questoes_sociais": {
+        "label": "Questões Sociais e Direitos",
+        "subtopics": ["racismo", "genero", "minorias", "direitos_humanos", "movimentos_sociais"]
+      },
+      "mundo": {
+        "label": "Espaço Mundial",
+        "subtopics": ["globalizacao", "blocos_economicos", "capitalismo", "guerras_mundiais", "guerra_fria", "imperialismo"]
+      },
+      "cartografia": {
+        "label": "Cartografia e Espaço Geográfico",
+        "subtopics": ["mapas", "escalas_geo", "coordenadas", "fusos", "movimentos_terra"]
+      },
+      "historia_geral": {
+        "label": "História Geral",
+        "subtopics": ["antiguidade", "idade_media", "renascimento", "revolucoes", "expansao_maritima"]
+      }
+    }
+  },
+  "ciencias": {
+    "label": "Ciências",
+    "icon": "🔬",
+    "color": "#9C27B0",
+    "topics": {
+      "ecologia": {
+        "label": "Ecologia e Meio Ambiente",
+        "subtopics": ["ecossistemas", "sustentabilidade", "poluicao", "efeito_estufa", "biodiversidade", "biomas"]
+      },
+      "materia": {
+        "label": "Matéria e Transformações",
+        "subtopics": ["estados_fisicos", "misturas", "separacao", "reacoes_quimicas", "tabela_periodica", "atomo"]
+      },
+      "energia": {
+        "label": "Energia",
+        "subtopics": ["fontes_energia", "transformacao_energia", "conservacao_energia", "eletricidade", "calor"]
+      },
+      "corpo_humano": {
+        "label": "Corpo Humano e Saúde",
+        "subtopics": ["sistemas_corpo", "doencas", "vacinas", "saude", "reproducao", "sentidos"]
+      },
+      "genetica": {
+        "label": "Genética e Hereditariedade",
+        "subtopics": ["mendel", "dna", "biotecnologia", "celula", "mitose_meiose"]
+      },
+      "seres_vivos": {
+        "label": "Seres Vivos",
+        "subtopics": ["classificacao", "animais", "vegetais", "fungos", "microorganismos"]
+      },
+      "evolucao": {
+        "label": "Evolução Biológica",
+        "subtopics": ["darwin", "lamarck", "selecao_natural", "fosseis", "origem_vida"]
+      },
+      "astronomia": {
+        "label": "Astronomia",
+        "subtopics": ["sistema_solar", "terra_lua", "estrelas"]
+      },
+      "mecanica": {
+        "label": "Mecânica",
+        "subtopics": ["movimento", "maquinas_simples"]
+      }
+    }
+  }
+}
