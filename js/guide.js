@@ -184,14 +184,14 @@ const Guide = {
     },
 
     toggleStudied(area, topic) {
-        Storage.toggleStudiedTopic(area, topic);
+        Storage.toggleStudiedTopic(`${area}/${topic}`);
     },
 
     renderSyllabus() {
         const syllabus = DataStore.syllabus;
         if (!syllabus || !syllabus.areas) return '<p class="text-muted">Conteúdo programático não disponível.</p>';
 
-        return syllabus.areas.map(area => `
+        return Object.values(syllabus.areas).map(area => `
             <details class="mb-8" style="border:1px solid var(--border);border-radius:8px;padding:12px">
                 <summary style="cursor:pointer;font-weight:700">
                     ${area.label}
@@ -205,7 +205,7 @@ const Guide = {
 
     renderCampusInfo() {
         const syllabus = DataStore.syllabus;
-        const campus = syllabus?.campus_info;
+        const campus = syllabus?.campus_info || syllabus?.campus_florianopolis_centro;
         if (!campus) {
             return `
                 <div style="padding:12px">
@@ -226,14 +226,15 @@ const Guide = {
             `;
         }
 
+        const courses = campus.courses || campus.cursos || [];
         return `
             <div style="padding:12px">
-                <p><strong>${campus.name}</strong></p>
+                <p><strong>${campus.name || 'Campus Florianópolis-Centro'}</strong></p>
                 <p class="text-muted mb-8">Cursos Técnicos Integrados disponíveis:</p>
                 <ul style="padding-left:20px">
-                    ${campus.courses.map(c => `
+                    ${courses.map(c => `
                         <li style="margin-bottom:4px">
-                            <strong>${c.name}</strong> — ${c.vagas} vagas
+                            <strong>${c.name || c.nome}</strong>${c.turno ? ` (${c.turno})` : ''} — ${c.vagas} vagas
                         </li>
                     `).join('')}
                 </ul>
